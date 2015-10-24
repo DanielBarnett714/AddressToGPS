@@ -9,7 +9,7 @@
     <link href="materialize.min.css" rel="stylesheet">
     <script src="converter.js">
     </script>
-    <script id="googlescript" src="maps.js" type="text/javascript">
+    <script id="googlemapAPI" src="maps.js" type="text/javascript">
     </script>
     <script src="jquery.min.js">
     </script>
@@ -49,24 +49,17 @@
                 <h5>Results</h5><input class="input-field col s12" id=
                     "address" readonly="true" type="textbox" value=""><br>
                 <br>
-                <script language="javascript">
-                                populateCountries("country", "state");
-                    </script> <button class="btn btn-primary" onclick=
-                    "getgps()" type="button">Get GPS
-                Coordinates</button><br>
+                <button class="btn btn-primary" onclick=
+                    "openInMaps()" type="button">Navigate to Location</button><br>
                 <br>
                 <div class="col-md-9">
-                    <h5>Maps Link:</h5>
+                    <h5>GPS Coordinates:</h5>
                     <p hidden="" id="coordlink"></p>
                     <p id="coordtext"></p>
                     <div hidden="true">
                         <input class="form-control" id="latitude" type=
                                 "textbox">,<input class="form-control" id=
                             "longitude" type="textbox">
-                    </div>
-                    <div class="col-md-9">
-                        <button class="btn btn-primary" onclick=
-                                "openInMaps()" type="button">Open In Maps</button>
                     </div>
                 </div><br>
                 <br>

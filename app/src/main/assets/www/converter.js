@@ -11,10 +11,12 @@ function initialize() {
         var place = autocomplete.getPlace();
         if (!place.geometry) {
             fromPlace = 0;
+            getgps();
             return;
         }
         fromPlace = 1;
         locationFromPlace = place.geometry.location;
+        getgps();
     });
     geocoder = new google.maps.Geocoder();
     var latlng = new google.maps.LatLng();
@@ -50,6 +52,7 @@ function getgps() {
             document.getElementById("latitude").value = latt;
             document.getElementById("longitude").value = long;
         }
+
 }
   
 
