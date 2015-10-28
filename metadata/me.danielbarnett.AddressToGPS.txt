@@ -20,6 +20,6 @@ Build:1.0,1
 
 Auto Update Mode:None
 Update Check Mode:Tags
-Current Version:1.03
+Current Version:v1.03
 Current Version Code:2
 
