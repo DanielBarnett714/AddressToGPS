@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="me.danielbarnett.AddressToGPS" >
+    package="me.danielbarnett.AddressToGPS"
+    android:versionName="v1.0">
     <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="Address To GPS"
+        android:label="AddressToGPS"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
         <activity
             android:name="me.danielbarnett.AddressToGPS.MainActivity"
-            android:label="Address to GPS"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:label="AddressToGPS"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:configChanges="orientation|screenSize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

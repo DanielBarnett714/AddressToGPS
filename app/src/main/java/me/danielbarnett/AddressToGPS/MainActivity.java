@@ -20,7 +20,7 @@ public class MainActivity extends Activity {
         mWebview  = new WebView(this);
         JavaScriptInterface jsInterface = new JavaScriptInterface(this);
         mWebview.getSettings().setJavaScriptEnabled(true); // enable javascript
-
+        mWebview.getSettings().setUserAgentString("AddressToGPS");
         mWebview.addJavascriptInterface(jsInterface, "JSInterface");
 
         final Activity activity = this;
@@ -31,7 +31,7 @@ public class MainActivity extends Activity {
             }
         });
 
-        mWebview .loadUrl("file:///android_asset/www/index.html");
+        mWebview .loadUrl("http://addresstogps.com");
         setContentView(mWebview );
 
     }
@@ -50,7 +50,7 @@ public class MainActivity extends Activity {
             this.activity = activiy;
         }
         @JavascriptInterface
-        public void openMap(String link){
+        public void openLink(String link){
             Intent intent = new Intent(Intent.ACTION_VIEW);
             intent.setData(Uri.parse(link));
             activity.startActivity(intent);
