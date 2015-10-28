@@ -4,6 +4,9 @@ Web Site:
 Source Code:https://github.com/DanielBarnett714/AddressToGPS
 Issue Tracker:https://github.com/DanielBarnett714/AddressToGPS/issues
 
+# Donate:(https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=VTUD5XRYMT686&lc=US&item_name=AddressToGPS%2fDanielBarnett&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted)
+# Bitcoin:(1Lck93jPp9NkebthCMefeUf1nXZ1J1ufsm)
+
 Auto Name:AddressToGPS
 Summary:A simple address/POI search for navigation apps
 Description:
