@@ -19,7 +19,7 @@ Build:1.0,1
     subdir=app
 
 Auto Update Mode:None
-Update Check Mode:Tags
+Update Check Mode:Tagsfdroid lint
 Current Version:1.03
 Current Version Code:1
 
