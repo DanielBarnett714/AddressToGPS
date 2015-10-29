@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="me.danielbarnett.AddressToGPS"
-    android:versionName="v1.05"
-    android:versionCode="5"
+    android:versionName="v1.06"
+    android:versionCode="6"
     >
     <uses-permission android:name="android.permission.INTERNET" />
     <application
