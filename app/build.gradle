@@ -8,8 +8,8 @@ android {
         applicationId "me.danielbarnett.addresstogps"
         minSdkVersion 9
         targetSdkVersion 22
-        versionCode 8
-        versionName "1.08"
+        versionCode 9
+        versionName "1.09"
     }
     buildTypes {
         release {
