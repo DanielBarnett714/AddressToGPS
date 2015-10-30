@@ -5,11 +5,11 @@ android {
     buildToolsVersion "23.0.1"
 
     defaultConfig {
-        applicationId "me.danielbarnett.addresstogps"
+        applicationId "me.danielbarnett.AddressToGPS"
         minSdkVersion 9
         targetSdkVersion 22
-        versionCode 9
-        versionName "1.09"
+        versionCode 10
+        versionName "1.1"
     }
     buildTypes {
         release {
