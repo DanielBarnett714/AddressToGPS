@@ -7,7 +7,7 @@ Issue Tracker:https://github.com/DanielBarnett714/AddressToGPS/issues
 Auto Name:AddressToGPS
 Summary:A simple address/POI search for navigation apps
 Description:
-AddressToGPS is a open source tool to search for an address, location, or area using the Google Maps javascript API via AddressToGPS.com, which is a website I also created. Once you have selected a location you then can get the coordinates and open the location in a maps app (OsmAnd). This tool does not require your location, only an internet connection.
+AddressToGPS is a open source tool to search for an address, location, or area using the Google Maps javascript API via AddressToGPS.com, which is a web service created by the author. Once you have selected a location you then can get the coordinates and open the location in a maps app (OsmAnd). This tool does not require your location, only an internet connection.
 .
 
 Repo Type:git
@@ -19,5 +19,5 @@ Build:1.11,11
 
 Auto Update Mode:None
 Update Check Mode:Tags
-Current Version:1.11
-Current Version Code:11
+Current Version:1.12
+Current Version Code:12
