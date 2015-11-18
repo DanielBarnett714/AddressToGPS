@@ -20,7 +20,7 @@ public class MainActivity extends Activity {
         mWebview  = new WebView(this);
         JavaScriptInterface jsInterface = new JavaScriptInterface(this);
         mWebview.getSettings().setJavaScriptEnabled(true); // enable javascript
-        mWebview.getSettings().setUserAgentString("AddressToGPS");
+        mWebview.getSettings().setUserAgentString("Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; FSL 7.0.6.01001)");
         mWebview.addJavascriptInterface(jsInterface, "JSInterface");
 
         final Activity activity = this;
@@ -31,7 +31,7 @@ public class MainActivity extends Activity {
             }
         });
 
-        mWebview .loadUrl("http://addresstogps.com");
+        mWebview.loadUrl("http://addresstogps.com");
         setContentView(mWebview );
 
     }
