@@ -13,8 +13,8 @@ AddressToGPS is a open source tool to search for an address, location, or area u
 Repo Type:git
 Repo:https://github.com/DanielBarnett714/AddressToGPS
 
-Build:1.11,11
-    commit=1.11
+Build:1.12,12
+    commit=1.12
     subdir=app
 
 Auto Update Mode:None
