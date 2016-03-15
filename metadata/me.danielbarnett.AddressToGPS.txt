@@ -1,23 +1,55 @@
+AntiFeatures:NonFreeNet
 Categories:Navigation
 License:MIT
-Web Site:
+Web Site:http://addresstogps.com/
 Source Code:https://github.com/DanielBarnett714/AddressToGPS
 Issue Tracker:https://github.com/DanielBarnett714/AddressToGPS/issues
+Donate:https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=VTUD5XRYMT686&lc=US&item_name=AddressToGPS%2fDanielBarnett&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted
 
 Auto Name:AddressToGPS
 Summary:A simple address/POI search for navigation apps
 Description:
-AddressToGPS is a open source tool to search for an address, location, or area using the Google Maps javascript API via AddressToGPS.com, which is a web service created by the author. Once you have selected a location you then can get the coordinates and open the location in a maps app (OsmAnd). This tool does not require your location, only an internet connection.
-.
+Search for an address, location, or area using the Google Maps javascript API. Once you have selected
+a location you then can get the coordinates and open the location in a maps app (OsmAnd). This tool
+does not require your location, only an internet connection.
 
 Repo Type:git
 Repo:https://github.com/DanielBarnett714/AddressToGPS
 
+Build:1.0,1
+    commit=v1.05
+    subdir=app
+    gradle=yes
+
+Build:1.09,9
+    commit=1.09
+    subdir=app
+    gradle=yes
+
+Build:1.1,10
+    disable=package id changed
+    commit=1.1
+    subdir=app
+    gradle=yes
+
+Build:1.11,11
+    commit=1.11
+    subdir=app
+    gradle=yes
+
 Build:1.12,12
     commit=1.12
     subdir=app
+    gradle=yes
+
+Build:1.30,13
+    commit=1.30
+    subdir=app
+    gradle=yes
 
 Auto Update Mode:None
 Update Check Mode:Tags
-Current Version:1.12
-Current Version Code:12
+Current Version:1.30
+Current Version Code:13
+
+
