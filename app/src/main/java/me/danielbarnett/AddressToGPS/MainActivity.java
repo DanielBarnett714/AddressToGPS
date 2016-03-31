@@ -5,10 +5,14 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.util.Log;
 import android.webkit.JavascriptInterface;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.*;
+
+import java.net.URI;
+import java.net.URISyntaxException;
 
 public class MainActivity extends Activity{
 
@@ -47,7 +51,10 @@ public class MainActivity extends Activity{
             if ("text/plain".equals(type)) {
                 handleSendText(intent); // Handle text being sent
             }
+        } else if (Intent.ACTION_VIEW.equals(action)) {
+                handleActionView(intent);
         }
+
     }
 
     void buttons(){
@@ -94,6 +101,19 @@ public class MainActivity extends Activity{
         String sharedText = intent.getStringExtra(Intent.EXTRA_TEXT);
         if (sharedText != null) {
             address.setText(sharedText);
+        }
+    }
+
+    void handleActionView(Intent intent) {
+        try {
+            URI uri = new URI(intent.getData().toString());
+            String q = uri.getQuery();
+            if (q != null) {
+                String addr=q.substring(q.indexOf("=") + 1).replace("\n",",");
+                address.setText(addr);
+            }
+        } catch (URISyntaxException e) {
+            // Probably ought to put something here
         }
     }
 
