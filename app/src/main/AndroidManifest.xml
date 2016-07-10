@@ -24,6 +24,30 @@
                 <data android:mimeType="text/plain"/>
             </intent-filter>
 
+            <intent-filter>
+                <data android:scheme="http" />
+                <data android:scheme="https" />
+                <data android:host="maps.google.com" />
+                <data android:host="maps.yandex.ru" />
+                <data android:host="maps.yandex.com" />
+                <data android:host="www.openstreetmap.org" />
+                <data android:host="openstreetmap.org" />
+                <data android:host="osm.org" />
+                <data android:host="map.baidu.cn" />
+                <data android:host="map.baidu.com" />
+                <data android:host="wb.amap.com" />
+                <data android:host="www.amap.com" />
+                <data android:host="here.com" />
+                <data android:host="www.here.com" />
+                <data android:host="share.here.com" />
+                <data android:host="map.wap.qq.com" />
+                <data android:host="map.qq.com" />
+                <data android:host="maps.apple.com" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+
         </activity>
     </application>
 
