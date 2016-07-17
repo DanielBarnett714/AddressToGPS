@@ -5,4 +5,5 @@ This tool does not require your location, only an internet connection.
 
 Donations:
 Bitcoin:  1NjjuTxXm3ezpnVUGk4VmdEZUcym3SKZ8z
+
 PayPal:   paypal.me/AddressToGPS
